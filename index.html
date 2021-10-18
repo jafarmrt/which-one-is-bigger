@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <p>insert first number</p>
+    <input type="number" id="firstNumber">
+    <p> insert second number</p>
+    <input type="number" id="secondNumber">
+    <p id="result"></p>
+    <button onclick="biggerOne()">result</button>
+<script>
+    function biggerOne() {
+var x = document.getElementById("firstNumber").value;
+var y = document.getElementById("secondNumber").value;
+
+if (x>y){
+    document.getElementById("result").innerHTML=x;
+
+ } else {
+
+document.getElementById("result").innerHTML=y;
+    }
+   
+console.log (x);
+console.log (y);
+
+
+}
+</script>
+</body>
