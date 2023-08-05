@@ -1,4 +1,3 @@
-
 function biggerOne() {
     var x = document.getElementById("firstNumber").value;
     var y = document.getElementById("secondNumber").value;
